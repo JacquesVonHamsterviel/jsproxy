@@ -35,7 +35,7 @@ function s() {
 		if (e) e.register(function r() {
 			return location.pathname.replace(/\/-+https?:.+/, "").replace(/\w+\.\w+$/, "").replace(/\/*$/, "/")
 		} () + "sw.js").then(a)["catch"](i);
-		else {
+		else {var t = navigator.userAgent;
 			return location.pathname.replace(/\/-+https?:.+/, "").replace(/\w+\.\w+$/, "").replace(/\/*$/, "/")
 		} () + "sw.js").then(a)["catch"](i);}
 	} else n("请使用最新的 HTML5 浏览器");
