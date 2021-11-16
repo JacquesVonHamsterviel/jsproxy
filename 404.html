@@ -37,7 +37,7 @@ function s() {
 		} () + "sw.js").then(a)["catch"](i);
 		else {
 			var t = navigator.userAgent;
-			/Firefox/.test(t) ? n("本网站不支持 FireFox 隐身模式") 
+			/Firefox/.test(t) ? n("本网站不支持 FireFox 隐身模式") : /iPhone|iPad/.test(t)
 		}
 	} else n("请使用最新的 HTML5 浏览器");
 	else n("本程序需要 HTTPS 站点")
